@@ -2,6 +2,7 @@ body{
     height: 100vh;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    min-width: fit-content;
 }
 
 .container{
@@ -93,4 +94,30 @@ ul, a{
     height: 200px;
     border: 3px solid #3882F6;
     border-radius: 12px;
+}
+
+
+/* Quote */
+.quote-author{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 160px 420px;
+}
+
+.author,
+.quote{
+    margin: 0;
+    color: #1F2937;
+    min-width: 800px;
+}
+.author{
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: end;
+}
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
