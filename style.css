@@ -4,6 +4,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Header */
 ul, a{
     list-style: none;
     text-decoration: none;
@@ -11,12 +19,6 @@ ul, a{
     display: flex;
     gap: 16px;
 }
-
-.container{
-    display: flex;
-    flex-direction: column;
-}
-
 .logo{
     width: 75px;
     height: auto;
@@ -68,5 +70,27 @@ ul, a{
     font-size: 16px;
     font-weight: 900;
     border: 0;
+    border-radius: 12px;
+}
+
+
+/* Information */
+.rand-info{
+    text-align: center;
+    margin: 40px;
+}
+
+.portraits-wtext{
+    display: flex;
+    justify-content: center;
+    margin: 0 420px 120px;
+    gap: 68px;
+    text-align: center;
+}
+
+.portraits{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
     border-radius: 12px;
 }
