@@ -8,6 +8,7 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
 }
 
 
@@ -20,6 +21,7 @@ ul, a{
     display: flex;
     gap: 16px;
 }
+
 .logo{
     width: 75px;
     height: auto;
@@ -75,6 +77,7 @@ ul, a{
 }
 
 
+
 /* Information */
 .rand-info{
     text-align: center;
@@ -87,6 +90,11 @@ ul, a{
     margin: 0 420px 120px;
     gap: 68px;
     text-align: center;
+    font-size: 18px;
+}
+
+.portraits-wtext div p{
+    max-width: fit-content;
 }
 
 .portraits{
@@ -97,12 +105,21 @@ ul, a{
 }
 
 
+
 /* Quote */
+.quote-author,
+.quote-author div{
+        display: flex;
+}
+
 .quote-author{
-    display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
     padding: 160px 420px;
+}
+
+.quote-author div{
+    justify-content: center;
 }
 
 .author,
@@ -111,11 +128,13 @@ ul, a{
     color: #1F2937;
     min-width: 800px;
 }
+
 .author{
     font-weight: bolder;
     font-size: 22px;
     text-align: end;
 }
+
 .quote{
     color: #1F2937;
     font-size: 36px;
