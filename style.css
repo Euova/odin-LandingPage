@@ -68,12 +68,15 @@ ul, a{
 .hero-signup{
     background-color: #3882F6;
     margin-top: 16px;
-    padding: 12px 40px;
-    color: #F9FAF8;
     font-size: 16px;
     font-weight: 900;
     border: 0;
     border-radius: 12px;
+}
+
+.hero-signup a{
+    color: #F9FAF8; 
+    padding: 12px 40px;
 }
 
 
@@ -132,6 +135,7 @@ ul, a{
     font-weight: bolder;
     font-size: 22px;
     text-align: end;
+    letter-spacing: 1px;
 }
 
 .quote{
@@ -159,6 +163,10 @@ ul, a{
 
 .action-signup{
     border: 2px solid #F9FAF8;
+}
+
+.action-signup a{
+    color: #F9FAF8; 
     padding: 8px 32px;
     font-size: 18px;
     font-weight: bold;
